@@ -8,4 +8,4 @@ echo "installing dependencies"
 pip install -r requirements.txt
 
 echo "static files"
-python manage.py collectstatic --noinput
+python3.9 manage.py collectstatic
